@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/50de0710-2659-4141-93e9-4672057d9f48/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/MinoxidilScraperApi",
+    "appService.deploySubpath": "."
+}
