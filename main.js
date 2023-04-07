@@ -4,6 +4,7 @@ const cors = require("cors");
 const _ = require("lodash");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 app.post("/UpdateData", (req, res) => {
@@ -33,4 +34,5 @@ app.get('/GetPrices', (req, res) => {
   });
 });
 
-app.listen(3000, () => console.log("API Server is running..."));
+app.listen(process.env.PORT || 3000, () => console.log("API Server is running..."));
+
